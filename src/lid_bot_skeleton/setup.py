@@ -9,7 +9,7 @@ setup(
     data_files=[
         ("share/ament_index/resource_index/packages", [f"resource/{package_name}"]),
         (f"share/{package_name}", ["package.xml"]),
-        (f"share/{package_name}/launch", ["launch/skeleton.launch.py"]),
+        (f"share/{package_name}/launch", ["launch/skeleton.launch.py", "launch/lid_bot.launch.py"]),
         (f"share/{package_name}/config", ["config/params.yaml"]),
     ],
     install_requires=["setuptools"],
@@ -22,6 +22,7 @@ setup(
     entry_points={
         "console_scripts": [
             "skeleton_node = lid_bot_skeleton.skeleton_node:main",
+            "serial_bridge = lid_bot_skeleton.serial_bridge:main",
         ],
     },
 )
