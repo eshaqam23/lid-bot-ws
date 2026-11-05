@@ -1,23 +1,5 @@
-# ROS 2 workspace artifacts
 build/
 install/
 log/
-
-# Python cache and packaging
-__pycache__/
-*.py[cod]
-*.egg-info/
-.pytest_cache/
-.coverage
-htmlcov/
-
-# Virtual environments
-.venv/
-venv/
-env/
-
-# Editor and OS files
+src/sllidar_ros2/
 .vscode/
-.idea/
-.DS_Store
-Thumbs.db
