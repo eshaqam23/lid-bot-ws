@@ -78,5 +78,5 @@ Defined in `src/motor_logic/helpers.h`:
 
 | Side | Direction pins | PWM pin |
 | --- | --- | --- |
-| Left | IN3 = 5, IN4 = 17 | ENB = 25 |
-| Right | IN1 = 16, IN2 = 4 | ENA = 26 |
+| Left | IN3 = 16, IN4 = 4 | ENB = 25 |
+| Right | IN1 = 5, IN2 = 17 | ENA = 26 |

@@ -7,13 +7,13 @@
 #include <Arduino.h>
 
 // --------- Left motor ---------- //
-const int IN3 = 5;
-const int IN4 = 17;
+const int IN3 = 16;
+const int IN4 = 4;
 const int ENB = 25;
 
 // --------- Right motor ---------- //
-const int IN1 = 16;
-const int IN2 = 4;
+const int IN1 = 5;
+const int IN2 = 17;
 const int ENA = 26;
 
 // ----------- Helper functions ---------- //
